@@ -1,0 +1,144 @@
+2026-10-26 21:08:15,780 | ERROR | Falha ao consultar PETR4.SA
+Traceback (most recent call last):
+  File "C:\Users\Pichau\Downloads\NexusAI\monitor.py", line 241, in verificar_ativo
+    enviar_email(assunto, mensagem)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pichau\Downloads\NexusAI\monitor.py", line 115, in enviar_email
+    servidor.login(EMAIL_REMETENTE, EMAIL_SENHA_APP)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 751, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 649, in auth
+    (code, resp) = self.docmd("AUTH", mechanism + " " + response)
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 439, in docmd
+    return self.getreply()
+           ~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\smtplib.py", line 412, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+2026-10-26 21:08:19,802 | ERROR | Falha ao consultar ITUB4.SA
+Traceback (most recent call last):
+  File "C:\Users\Pichau\Downloads\NexusAI\monitor.py", line 241, in verificar_ativo
+    enviar_email(assunto, mensagem)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pichau\Downloads\NexusAI\monitor.py", line 115, in enviar_email
+    servidor.login(EMAIL_REMETENTE, EMAIL_SENHA_APP)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 751, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 649, in auth
+    (code, resp) = self.docmd("AUTH", mechanism + " " + response)
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 439, in docmd
+    return self.getreply()
+           ~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\smtplib.py", line 412, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+2026-10-26 21:08:22,484 | ERROR | Falha ao consultar BBDC4.SA
+Traceback (most recent call last):
+  File "C:\Users\Pichau\Downloads\NexusAI\monitor.py", line 241, in verificar_ativo
+    enviar_email(assunto, mensagem)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pichau\Downloads\NexusAI\monitor.py", line 115, in enviar_email
+    servidor.login(EMAIL_REMETENTE, EMAIL_SENHA_APP)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 751, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 649, in auth
+    (code, resp) = self.docmd("AUTH", mechanism + " " + response)
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 439, in docmd
+    return self.getreply()
+           ~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\smtplib.py", line 412, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+2026-10-26 21:08:25,715 | ERROR | Falha ao consultar BOVA11.SA
+Traceback (most recent call last):
+  File "C:\Users\Pichau\Downloads\NexusAI\monitor.py", line 241, in verificar_ativo
+    enviar_email(assunto, mensagem)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pichau\Downloads\NexusAI\monitor.py", line 115, in enviar_email
+    servidor.login(EMAIL_REMETENTE, EMAIL_SENHA_APP)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 751, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 649, in auth
+    (code, resp) = self.docmd("AUTH", mechanism + " " + response)
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 439, in docmd
+    return self.getreply()
+           ~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\smtplib.py", line 412, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+2026-10-26 21:08:28,384 | ERROR | Falha ao consultar ^BVSP
+Traceback (most recent call last):
+  File "C:\Users\Pichau\Downloads\NexusAI\monitor.py", line 241, in verificar_ativo
+    enviar_email(assunto, mensagem)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pichau\Downloads\NexusAI\monitor.py", line 115, in enviar_email
+    servidor.login(EMAIL_REMETENTE, EMAIL_SENHA_APP)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 751, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 649, in auth
+    (code, resp) = self.docmd("AUTH", mechanism + " " + response)
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 439, in docmd
+    return self.getreply()
+           ~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\smtplib.py", line 412, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+2026-10-26 21:08:40,654 | ERROR | Falha ao consultar TSLA
+Traceback (most recent call last):
+  File "C:\Users\Pichau\Downloads\NexusAI\monitor.py", line 241, in verificar_ativo
+    enviar_email(assunto, mensagem)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Pichau\Downloads\NexusAI\monitor.py", line 115, in enviar_email
+    servidor.login(EMAIL_REMETENTE, EMAIL_SENHA_APP)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 751, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 649, in auth
+    (code, resp) = self.docmd("AUTH", mechanism + " " + response)
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\smtplib.py", line 439, in docmd
+    return self.getreply()
+           ~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\smtplib.py", line 412, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
